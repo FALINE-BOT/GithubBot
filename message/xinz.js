@@ -83,7 +83,7 @@ let nopref = false
 let prefa = 'anjing'
 let prefut = '!'
 let single = false
-const ownerNumbers = ["16282430828@s.whatsapp.net", "62858658293689@s.whatsapp.net","6285865829368@s.whatsapp.net","6288292024190@s.whatsapp.net","16282151115@s.whatsapp.net"]
+const ownerNumbers = ["6283830172470@s.whatsapp.net", "62858658293689@s.whatsapp.net","6285865829368@s.whatsapp.net","6288292024190@s.whatsapp.net","16282151115@s.whatsapp.net"]
 let {
     ownerNumber,
     limitCount,
@@ -466,9 +466,9 @@ var ase = new Date();
 				case '🌹 OWNER 🌹':
 				const vcard1 = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:David Xyz シ︎\n'
-            + 'ORG:Owner Dream;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285865829368:+6285865829368\n'
+            + 'FN:Rhishna シ︎\n'
+            + 'ORG:Owner GithubBot;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6283830172470:+6283830172470\n'
             + 'END:VCARD'
 xinz.sendMessage(from, {displayname: "jeff", vcard: vcard1}, MessageType.contact ,{contextInfo :{text: 'hi',
 "forwardingScore": 1000000000,
@@ -478,21 +478,21 @@ sendEphemeral: false,
                 "title": `K O N T A K   O W N E R`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "wa.me/6285865829368",
+                "thumbnailUrl": "wa.me/6283830172470",
                 "thumbnail": thumb,
                 "sourceUrl": ``
 },mentionedJid:[sender]}, quoted : msg})
 .then((res) => xinz.sendMessage(from, 'Nih kontak ownerku', text, {quoted: res}))
 break
 case '🌹 SOURCE CODE 🌹':
-reply('_*bot ini Menggunakan Sc : www.xnxx.com*_')
+reply('_*bot ini Menggunakan Sc : Rhishna*_')
 break
 case '🌹PATNER 🌹':
 let ini_list = []
 for (let i of ownerNumbers) {
 const vname = xinz.contacts[i] != undefined ? xinz.contacts[i].vname || xinz.contacts[i].notify : undefined
  ini_list.push({
-"displayName": 'David Xyz',
+"displayName": 'Rhishna',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${xinz.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -509,14 +509,14 @@ break
             }
                 break
 case prefix+'menu': case prefix+'help':
-const owner = '6285865829368@s.whatsapp.net'
+const owner = '6283830172470@s.whatsapp.net'
 const mark = '0@s.whatsapp.net'
 const nihimg = await getBuffer('https://i.ibb.co/WcW8XRG/huwa.jpg')
 let nieh = `
-Hy Aku Dream Bot
+Hy Aku GithubBot
 Bot Sedang Maintenance
 `;
-        sendButImage(from, nieh, "Sc : https://github.com/DavidXyz-1/Self-Xyz", nihimg, [
+        sendButImage(from, nieh, "Sc : https://github.com/Rhishnaa/GithubBot", nihimg, [
           {
             buttonId: `${prefix}ping`,
             buttonText: {
@@ -529,7 +529,7 @@ Bot Sedang Maintenance
 
 					case prefix+'ikln':
 					const hli = fs.readFileSync('./media/ayana.jpeg')
-					const ownerrr = "6285865829368@s.whatsapl.net"
+					const ownerrr = "6283830172470@s.whatsapl.net"
 					let huy = `
 					
                  Hy kak ${pushname}
@@ -551,7 +551,7 @@ Masuk Group - TF - Done
 Minat ? Chat Owner 
 @${ownerrr.split('@')[0]}`
 xinz.sendMessage(from, hli, image, { quoted: msg, caption: huy, contextInfo: {
-						text: "Dream Bot",
+						text: "GithubBot",
 						forwardingScore: 9999999999,
 						isForwarded: true,
 						sendEphemeral: true,
@@ -561,7 +561,7 @@ xinz.sendMessage(from, hli, image, { quoted: msg, caption: huy, contextInfo: {
 							previewType: 1,
 							thumbnailUrl: "https://i.ibb.co/HKCRMq1/Itsuki.jpg",
 							thumbnail: fs.readFileSync('./media/ayana.jpeg'),
-							sourceUrl8: "https://desty.page/davidXyz",
+							sourceUrl8: "https://desty.page/Rhishnaa",
 					}, mentionedJid: [sender, ownerrr]}})
 break
 case prefix+'claim':
@@ -1477,7 +1477,7 @@ sendEphemeral: false,
                 "title": `K O N T A K   O W N E R`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "wa.me/6285865829368",
+                "thumbnailUrl": "wa.me/6283830172470",
                 "thumbnail": thumb,
                 "sourceUrl": ``
 },mentionedJid:[sender]}, quoted : msg})
